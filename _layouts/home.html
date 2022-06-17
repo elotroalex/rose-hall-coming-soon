@@ -40,7 +40,50 @@
     </div>
 
     <div id="section1" class="section" data-name="social">
-      <h1 class="animated hidden">Form here</h1>
+      <form
+        class="newsletter-form validate"
+        method="post"
+        target="_blank"
+        action="https://formsubmit.io/send/colibri.alex@gmail.com"
+      >
+        <div id="subscribe" class="row align-items-center">
+          <div class="col-md-3 text-right">
+            <h2 class="form-title" style="color: white">
+              Want to know when we launch?
+            </h2>
+          </div>
+          <div class="email-form">
+            <input
+              type="email"
+              class="form-controller"
+              name="subescrbe_mail"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="submit-btn">
+            <small style="color: white"
+              >We will only use your email to let you know when we publish.
+              Promise.</small
+            >
+          </div>
+          <div class="submit-btn">
+            <button
+              type="submit"
+              style="padding: 0.5rem; margin-top: 1.6rem"
+              class="newsletter-btn"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+        <!--  /.row -->
+        <div class="newsletter-message">
+          <div class="subscription-success"></div>
+          <div class="subscription-error"></div>
+        </div>
+        <!--  /.message -->
+      </form>
     </div>
 
     {% include home/scripts.html %}

@@ -33,8 +33,8 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: "(Un)Silencing Slavery at Rose Hall"
-description: "Coming Soon."
+title: "Coming Soon"
+description: ""
 keywords: "jekyll,theme,gem-based,blog"
 author:
   name:
