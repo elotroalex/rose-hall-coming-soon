@@ -27,7 +27,7 @@
     <div id="section0" class="section" data-name="bio">
       {% include common/notices.html %}
 
-      <div class="headings animated fadeInLeft">
+      <div class="headings animated fadeInLeft" style="padding: 0 1rem">
         {% if site.home.section1 %}{{ site.home.section1 }}{% endif %} {% if
         site.home.section2 %}{{ site.home.section2 }}{% endif %} {% if
         site.home.section3 %}{{ site.home.section3 }}{% endif %}
@@ -48,7 +48,7 @@
       >
         <div id="subscribe" class="row align-items-center">
           <div class="col-md-3 text-right">
-            <h2 class="form-title" style="color: white">
+            <h2 class="form-title" style="color: white; padding: 0 1rem">
               Want to know when we launch?
             </h2>
           </div>
@@ -57,12 +57,15 @@
               type="email"
               class="form-controller"
               name="subescrbe_mail"
-              placeholder="Enter your email"
+              placeholder="Your email"
               required
             />
           </div>
-          <div class="submit-btn">
-            <small style="color: white"
+          <div
+            class="submit-btn"
+            style="margin-top: 0.5rem; line-height: 1.2rem"
+          >
+            <small style="color: white; padding: 0 1rem"
               >We will only use your email to let you know when we publish.
               Promise.</small
             >
